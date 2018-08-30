@@ -1,8 +1,9 @@
 const db = require('./db')
-//import models
+const School = require('./school')
 
-//define associations here
+// define associations here
 
 module.exports = {
   db,
+  School
 }
